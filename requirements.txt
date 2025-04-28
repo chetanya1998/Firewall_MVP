@@ -1,0 +1,10 @@
+Flask
+Streamlit
+watchdog
+scikit-learn
+joblib
+pandas
+requests
+faker
+fake_useragent
+time
