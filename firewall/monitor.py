@@ -7,7 +7,7 @@ import os
 from firewall.actions import block_ip
 
 # Configurations
-MODEL_NAME = "IsolationForest"  # Options: IsolationForest, OneClassSVM, LocalOutlierFactor
+MODEL_NAME = "OneClassSVM"  # Options: IsolationForest, OneClassSVM, LocalOutlierFactor
 MODEL_PATH = f"model/{MODEL_NAME}_model.pkl"
 SCALER_PATH = f"model/{MODEL_NAME}_scaler.pkl"
 LOG_FILE = "logs/access.log"
